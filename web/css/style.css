@@ -19,7 +19,7 @@
     margin-top: 35vh;
 }
 
-@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
+@-webkit-keyframes blink-caret { 0% { opacity: 100} 100% { opacity: 0} }
 
 .caret {
     -webkit-animation: blink-caret .5s infinite alternate;

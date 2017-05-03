@@ -14,6 +14,6 @@ $(document).ready(function () {
     setTimeout(function animate2() {
         str2.length > 0 ? el2.innerHTML += str2.shift() : clearTimeout(running);
         var running = setTimeout(animate2, 120);
-    }, 1500)();
+    }, 1900)();
 
 });
