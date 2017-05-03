@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Courier 10 Pitch";
+    color: white;
+}
+
+.imgAccueil {
+    background-image: url('../img/accueil.jpg');
+    height : 100vh;
+}
+
+.filter {
+    background-color: rgba(0,0,0,0.7);
+    height: 100vh;
+}
+
+.wrapperTitre {
+    margin-top: 35vh;
+}
+
+@-webkit-keyframes blink-caret { 0% { opacity: 100} 100% { opacity: 0} }
+
+.caret {
+    -webkit-animation: blink-caret .5s infinite alternate;
+}
+
+.caret2 {
+    -webkit-animation: blink-caret .5s infinite alternate;
+}
